@@ -1,0 +1,4 @@
+# Compiled source #
+utils/*.pyc
+*.pyc
+*.exe

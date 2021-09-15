@@ -1,0 +1,28 @@
+#!/bin/bash
+#$ -N postprocess_subs_rates_MegaMI
+#$ -cwd
+#$ -e /u/project/ngarud/daisyche/mother_infant/logs/
+#$ -o /u/project/ngarud/daisyche/mother_infant/logs/
+#$ -l h_data=64G
+#$ -l highp
+#$ -l time=100:00:00
+#$ -t 3-3 # skip 412 for now which is Providencia_rettgeri_61888
+#$ -m e
+
+. /u/local/Modules/default/init/modules.sh
+module load python/2.7
+
+ppdir=/u/project/ngarud/daisyche/mother_infant/scripts/postprocess
+
+readarray all_species < /u/project/ngarud/daisyche/mother_infant/data/pickles/species_list.txt
+all_species=(null ${all_species[@]}) # zero to one start index
+species=${all_species[$SGE_TASK_ID]}
+
+echo Postprocessing species $species
+
+# Calculate substitution rates
+
+echo 'Calculating error pvalues...'
+python $ppdir/calculate_substitution_rates.py $species
+echo 'Done calculating substitution rates!'
+

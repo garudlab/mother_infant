@@ -1,0 +1,33 @@
+#!/bin/bash
+#$ -N ShaoMIDASgenes
+#$ -e /u/project/ngarud/daisyche/tmp_intermediate_files/postproc_error
+#$ -o /u/project/ngarud/daisyche/tmp_intermediate_files/postproc_output
+#$ -cwd
+#$ -r y
+#$ -j y
+#$ -l h_data=20G
+#$ -l time=23:00:00
+#$ -t 1-2
+#$ -tc 100
+
+. /u/local/Modules/default/init/modules.sh
+module load python/2.7
+
+export PYTHONPATH=$PYTHONPATH:/u/project/ngarud/Garud_lab/MIDAS_mod
+export PATH=$PATH:/u/project/ngarud/Garud_lab/MIDAS_mod/scripts
+export MIDAS_DB=/u/project/ngarud/Garud_lab/midas_db_v1.2
+
+readarray accs < /u/project/ngarud/Garud_lab/metagenomic_fastq_files/Shao_2019/repair_samples.txt
+# PRJEB32631_run_accession_only.txt
+accs=(null ${accs[@]}) # zero to one start index
+acc=${accs[$SGE_TASK_ID]}
+echo $acc
+
+OUTDIR=/u/project/ngarud/Garud_lab/metagenomic_fastq_files/Shao_2019/midas_output/${acc}
+
+# Assume OUTDIR already made during species step
+
+run_midas.py genes $OUTDIR -1 /u/project/ngarud/Garud_lab/metagenomic_fastq_files/Shao_2019/fastq_files/${acc}_1.fastq.gz -2 /u/project/ngarud/Garud_lab/metagenomic_fastq_files/Shao_2019/fastq_files/${acc}_2.fastq.gz --extra_species_file /u/project/ngarud/Garud_lab/metagenomic_fastq_files/Shao_2019/species_unions/${acc}_species_union.txt --remove_temp
+
+run_midas.py snps $OUTDIR -1 /u/project/ngarud/Garud_lab/metagenomic_fastq_files/Shao_2019/fastq_files/${acc}_1.fastq.gz -2 /u/project/ngarud/Garud_lab/metagenomic_fastq_files/Shao_2019/fastq_files/${acc}_2.fastq.gz --extra_species_file /u/project/ngarud/Garud_lab/metagenomic_fastq_files/Shao_2019/species_unions/${acc}_species_union.txt --remove_temp
+

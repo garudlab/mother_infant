@@ -1,0 +1,45 @@
+#!/bin/bash
+#$ -N subrates_onwards_MegaMI
+#$ -cwd
+#$ -e /u/project/ngarud/daisyche/mother_infant/logs/final
+#$ -o /u/project/ngarud/daisyche/mother_infant/logs/final
+#$ -l h_data=64G
+#$ -l highp
+#$ -l time=200:00:00
+#$ -t 1-39 # skip 412 for now which is Providencia_rettgeri_61888
+#$ -m e
+
+. /u/local/Modules/default/init/modules.sh
+module load python/2.7
+
+ppdir=/u/project/ngarud/daisyche/mother_infant/scripts/postprocess
+
+readarray all_species < /u/project/ngarud/daisyche/mother_infant/data/pickles/species_list.txt
+all_species=(null ${all_species[@]}) # zero to one start index
+species=${all_species[$SGE_TASK_ID]}
+
+# Calculate within person SFS
+# this produces within_sample_sfs.txt.bz2.
+echo 'Calculating within-sample SFSs...'
+python $ppdir/calculate_within_person_sfs.py $species
+echo 'Done calculating within-sample SFSs!'
+
+# Calculate substitution rates between samples
+echo 'Calculating substitution rates...'
+python $ppdir/calculate_substitution_rates.py $species
+echo 'Done calculating substitution rates!'
+
+# Calculate singleton substitution rates
+echo 'Calculating singleton rates...'
+python $ppdir/calculate_singletons.py $species
+echo 'Done calculating singleton rates!'
+
+# Calculate private SNVs
+echo 'Calculating private SNVs...'
+python $ppdir/calculate_private_snvs.py $species
+echo 'Done calculating private SNVs!'
+
+# Calculate temporal changes
+echo Postprocessing temporal changes for $species
+python $ppdir/calculate_temporal_changes.py $species
+echo Done postprocessing temporal changes for $species

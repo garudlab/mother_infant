@@ -1,0 +1,13 @@
+#!/bin/bash      
+#$ -N CoreGenes
+#$ -e /u/project/ngarud/daisyche/tmp_intermediate_files/postproc_error
+#$ -o /u/project/ngarud/daisyche/tmp_intermediate_files/postproc_output
+#$ -cwd      
+#$ -l h_data=4G
+#$ -l time=16:00:00 
+#$ -m bea
+
+. /u/local/Modules/default/init/modules.sh
+module load python/2.7
+
+python ~/mother_infant/scripts/core_gene_utils.py

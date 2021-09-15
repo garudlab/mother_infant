@@ -1,0 +1,22 @@
+#!/bin/bash
+#$ -N compress_genes_MegaMI
+#$ -e /u/project/ngarud/daisyche/mother_infant/logs
+#$ -o /u/project/ngarud/daisyche/mother_infant/logs
+#$ -l h_data=8G
+#$ -l time=200:00:00
+#$ -l highp
+#$ -t 1-669
+#$ -m e
+
+genes_dir=/u/project/ngarud/Garud_lab/metagenomic_fastq_files/MegaMI/data/genes
+
+readarray species_genes < $genes_dir/species_genes.txt
+species_genes=(null ${species_genes[@]}) # zero to one start index
+species=${species_genes[$SGE_TASK_ID]}
+
+echo "Compressing genes for $species"
+bzip2 $genes_dir/$species/genes_depth.txt
+bzip2 $genes_dir/$species/genes_copynum.txt
+bzip2 $genes_dir/$species/genes_presabs.txt
+bzip2 $genes_dir/$species/genes_reads.txt
+echo "Done :D"

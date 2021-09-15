@@ -1,0 +1,25 @@
+#!/bin/bash
+#$ -N snp_prev_MegaMI
+#$ -cwd
+#$ -e /u/project/ngarud/daisyche/mother_infant/logs/final2
+#$ -o /u/project/ngarud/daisyche/mother_infant/logs/final2
+#$ -l h_data=64G
+#$ -l time=23:00:00
+#$ -t 1-9 # skip 412 for now which is Providencia_rettgeri_61888
+#$ -m a
+
+. /u/local/Modules/default/init/modules.sh
+module load python/2.7
+
+ppdir=/u/project/ngarud/daisyche/mother_infant/scripts/postprocess
+
+readarray all_species < /u/project/ngarud/daisyche/mother_infant/data/pickles/species_list.txt
+all_species=(null ${all_species[@]}) # zero to one start index
+species=${all_species[$SGE_TASK_ID]}
+
+python $ppdir/calculate_snp_prevalences.py $species --cohort hmp
+python $ppdir/calculate_snp_prevalences.py $species --cohort nonpremie
+python $ppdir/calculate_snp_prevalences.py $species --cohort infant
+python $ppdir/calculate_snp_prevalences.py $species --cohort mother
+# python $ppdir/calculate_snp_prevalences.py $species --cohort premie
+echo Done postprocessing snp prevalences for $species
