@@ -760,6 +760,34 @@ def calculate_sample_subject_matrix(samples):
 # ===========================================================================
 
 # ====================================================================================
+# parse_sample_read_count_map
+# 
+# Loads HMP read counts (# lines in fastq files / 4)
+# Returns map: sample -> read_count
+# ====================================================================================
+
+def parse_sample_read_count_map(): 
+	
+	from config import metadata_directory
+	sample_rc_map = {}
+	
+	# First load HMP metadata
+	with open("%s/read_counts/HMP1-2_read_counts.txt" % (metadata_directory), 'r') as file:	
+		for line in file:
+			sample_id, read_count = line.strip().split('\t')
+			sample_rc_map[sample_id] = int(read_count)
+	
+	# Next load Backhed, Ferretti, Yassour, Qin (same file format)
+	for cohort in ['Backhed', 'Ferretti', 'Yassour', 'Shao', 'Qin']:
+		with open("%s/read_counts/%s_read_counts.txt" % (metadata_directory, cohort), 'r') as file:
+			header = file.readline()
+			for line in file:
+				_, _, _, run_accession, _, read_count, base_count = line.strip().split('\t')
+				sample_rc_map[run_accession] = int(read_count)
+	
+	return sample_rc_map
+
+# ====================================================================================
 # parse_sample_metadata_map
 # 
 # Loads metadata for HMP, Yassour, Backhed, Ferretti, Shao, Olm samples
