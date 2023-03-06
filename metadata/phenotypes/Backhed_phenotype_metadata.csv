@@ -1,0 +1,99 @@
+study_id,gender,delivery_mode,newborn_sample_days,mother_sample_day_after_birth,4m_sample_days,12m_sample_days,feeding_wk1,feeding_4m,breastfeeding_12m,antibiotics_times_0-4m,antibiotics_times_4-12m
+1,boy,vaginal,1,2,110,380,mixed feeding,exclusively breastfeeding,no breastfeeding,0,0
+2,boy,vaginal,2,2,127,363,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,0
+3,boy,vaginal,5,5,132,363,exclusively breastfeeding,mixed feeding,no breastfeeding,0,2
+4,girl,vaginal,6,6,128,369,mixed feeding,exclusively formula feeding,no breastfeeding,0,0
+5,boy,vaginal,1,2,134,366,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+6,girl,vaginal,12,12,125,409,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+7,girl,vaginal,2,0,127,359,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+8,girl,vaginal,2,3,125,369,mixed feeding,exclusively breastfeeding,no breastfeeding,0,0
+9,girl,section,3,4,125,369,exclusively breastfeeding,mixed feeding,no breastfeeding,0,0
+10,girl,vaginal,2,0,111,376,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+11,girl,vaginal,1,2,121,364,mixed feeding,exclusively breastfeeding,no breastfeeding,1,0
+12,boy,vaginal,3,1,123,364,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,2,0
+13,boy,vaginal,4,6,122,374,,mixed feeding,no breastfeeding,0,0
+14,boy,vaginal,9,7,128,367,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+15,girl,vaginal,2,0,120,375,,exclusively breastfeeding,no breastfeeding,0,1
+16,girl,vaginal,2,0,122,364,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+18,boy,vaginal,1,0,121,366,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,1
+19,boy,vaginal,3,0,122,372,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,3
+20,girl,vaginal,5,6,116,364,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+21,boy,vaginal,3,2,125,366,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+22,boy,vaginal,6,11,119,371,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,0
+23,girl,section,2,2,124,359,,mixed feeding,no breastfeeding,0,3
+24,boy,vaginal,3,3,150,369,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+25,girl,section,8,8,127,374,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,0
+26,boy,vaginal,3,3,131,378,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+27,boy,vaginal,2,0,120,365,exclusively breastfeeding,mixed feeding,no breastfeeding,0,1
+28,girl,vaginal,5,5,117,367,,exclusively breastfeeding,no breastfeeding,0,0
+29,boy,vaginal,4,4,114,378,exclusively breastfeeding,mixed feeding,no breastfeeding,0,1
+30,boy,vaginal,5,5,118,354,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+31,boy,vaginal,1,2,123,366,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+32,boy,vaginal,11,11,124,369,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+33,girl,vaginal,8,4,121,361,mixed feeding,mixed feeding,no breastfeeding,0,0
+34,girl,vaginal,3,3,119,357,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+35,girl,vaginal,3,0,125,360,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+36,boy,vaginal,2,0,114,396,exclusively breastfeeding,mixed feeding,no breastfeeding,0,0
+37,girl,vaginal,8,8,,381,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,0
+38,boy,vaginal,8,8,124,377,exclusively breastfeeding,mixed feeding,no breastfeeding,0,0
+39,boy,vaginal,,,125,371,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+40,boy,vaginal,5,6,123,365,mixed feeding,exclusively breastfeeding,no breastfeeding,0,1
+41,girl,vaginal,3,0,130,358,,mixed feeding,no breastfeeding,0,0
+42,boy,vaginal,2,0,128,362,exclusively breastfeeding,exclusively formula feeding,no breastfeeding,0,1
+43,boy,vaginal,3,0,118,385,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,0
+44,boy,vaginal,1,1,115,363,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+45,girl,vaginal,11,12,124,372,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+46,boy,vaginal,3,3,119,371,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+47,girl,vaginal,0,0,120,367,exclusively breastfeeding,,no breastfeeding,0,1
+48,boy,vaginal,4,4,128,373,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+49,girl,vaginal,7,7,117,366,mixed feeding,exclusively breastfeeding,no breastfeeding,0,1
+50,girl,vaginal,2,0,122,385,mixed feeding,exclusively breastfeeding,any breastfeeding,0,1
+51,girl,vaginal,2,0,126,364,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+52,boy,vaginal,4,3,122,364,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+53,girl,vaginal,9,10,122,364,mixed feeding,exclusively breastfeeding,no breastfeeding,0,0
+54,girl,vaginal,2,2,121,376,,exclusively breastfeeding,no breastfeeding,0,0
+55,girl,vaginal,3,4,123,372,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,0
+56,girl,vaginal,2,2,130,380,,exclusively formula feeding,no breastfeeding,0,1
+57,boy,vaginal,7,7,122,372,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+58,girl,vaginal,10,10,118,370,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,1,0
+59,boy,vaginal,3,3,124,371,mixed feeding,exclusively formula feeding,no breastfeeding,0,0
+60,boy,section,8,9,115,365,exclusively breastfeeding,mixed feeding,no breastfeeding,0,1
+61,girl,vaginal,1,2,123,361,mixed feeding,exclusively breastfeeding,no breastfeeding,0,0
+62,girl,section,6,1,123,360,,exclusively breastfeeding,no breastfeeding,0,0
+63,boy,section,5,5,120,364,mixed feeding,exclusively formula feeding,no breastfeeding,0,1
+64,girl,section,,20,114,364,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+65,boy,section,3,3,121,358,mixed feeding,exclusively formula feeding,no breastfeeding,0,2
+66,girl,section,4,4,131,360,mixed feeding,exclusively breastfeeding,any breastfeeding,0,0
+67,boy,vaginal,3,0,127,367,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+68,girl,vaginal,1,0,121,367,mixed feeding,exclusively breastfeeding,any breastfeeding,0,0
+69,girl,vaginal,2,3,118,371,exclusively breastfeeding,mixed feeding,no breastfeeding,0,0
+70,girl,vaginal,4,4,123,355,mixed feeding,exclusively breastfeeding,no breastfeeding,0,0
+71,boy,vaginal,9,2,119,364,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+72,girl,section,4,3,133,372,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,0
+73,girl,vaginal,,0,115,352,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+74,girl,vaginal,2,2,121,372,exclusively breastfeeding,mixed feeding,no breastfeeding,0,0
+75,boy,vaginal,2,0,116,353,exclusively breastfeeding,exclusively formula feeding,no breastfeeding,0,2
+76,boy,vaginal,7,4,120,363,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,1
+77,girl,vaginal,1,1,127,365,,,no breastfeeding,0,0
+78,girl,vaginal,0,0,128,365,Formula feeding ,exclusively breastfeeding,any breastfeeding,0,0
+79,girl,vaginal,3,0,112,357,mixed feeding,mixed feeding,no breastfeeding,0,2
+80,girl,vaginal,1,0,122,358,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,0
+81,girl,vaginal,2,0,121,359,mixed feeding,exclusively formula feeding,no breastfeeding,0,0
+82,girl,vaginal,4,0,114,358,exclusively breastfeeding,mixed feeding,no breastfeeding,0,0
+83,girl,section,7,8,120,369,mixed feeding,mixed feeding,no breastfeeding,1,0
+84,girl,vaginal,1,3,120,351,exclusively breastfeeding,mixed feeding,no breastfeeding,0,1
+85,boy,vaginal,2,2,129,380,exclusively breastfeeding,exclusively formula feeding,no breastfeeding,0,1
+86,girl,vaginal,7,6,124,362,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+87,boy,section,5,8,119,376,,exclusively breastfeeding,no breastfeeding,0,0
+88,boy,vaginal,1,2,119,367,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+89,girl,vaginal,2,0,119,368,,exclusively breastfeeding,no breastfeeding,0,1
+90,girl,vaginal,3,3,110,366,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+91,girl,vaginal,2,0,121,364,exclusively breastfeeding,mixed feeding,no breastfeeding,0,0
+92,boy,section,4,4,124,361,mixed feeding,exclusively formula feeding,no breastfeeding,0,0
+93,girl,vaginal,3,0,132,368,,exclusively breastfeeding,no breastfeeding,0,0
+94,girl,vaginal,0,1,123,360,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+95,boy,vaginal,2,2,122,365,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+96,boy,section,6,5,126,367,exclusively breastfeeding,exclusively breastfeeding,no breastfeeding,0,0
+97,boy,vaginal,,0,120,398,exclusively breastfeeding,exclusively breastfeeding,any breastfeeding,0,0
+98,girl,section,4,4,119,371,mixed feeding,mixed feeding,no breastfeeding,1,1
+100,girl,vaginal,2,2,115,359,exclusively breastfeeding,exclusively formula feeding,no breastfeeding,0,0

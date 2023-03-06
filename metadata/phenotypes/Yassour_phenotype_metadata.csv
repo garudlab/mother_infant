@@ -1,0 +1,45 @@
+family,delivery_mode,gender,birth_weight,gestational_age,number_child_samples,number_mother_samples,total_number_family_samples,breastfeeding_duration_days,formula_first_day,breastmilk_amount_3m_grams,feeding_state_wk2,formula_used_wk2,feeding_state_1m,formula_used_1m,feeding_state_2m,formula_used_2m,feeding_state_3m,formula_used_3m
+M0018,Vaginal,Girl,3640,39.1,5,3,8,365,195,913.3,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0024,Vaginal,Girl,3145,40.7,1,2,3,NA,NA,NA,NA,,NA,,NA,,NA,
+M0038,Vaginal,Boy,3620,39,5,3,8,246,2,1072.78,Breastmilk & formula,Nutramigen,Exclusive breastmilk,,Breastmilk & formula,"NAN 1, Nestle",Breastmilk & formula,Nutramigen
+M0053,Vaginal,Boy,3120,41.4,1,2,3,NA,NA,NA,NA,,NA,,NA,,NA,
+M0059,Vaginal,Girl,2970,40,5,3,8,279,1,359.91,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil
+M0072,C-section,Boy,3670,41.4,5,3,8,305,175,1102.99,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0073,Vaginal,Girl,3090,40.1,5,3,8,456,182,842.34,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0074,Vaginal,Boy,3490,40.6,4,3,7,182,3,738.09,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen
+M0084,Vaginal,Girl,4310,41.7,5,3,8,296,47,886.01,Exclusive breastmilk,,Exclusive breastmilk,,Breastmilk & formula,Enfamil,Exclusive breastmilk,
+M0108,Vaginal,Girl,3315,40.3,1,2,3,NA,NA,NA,NA,,NA,,NA,,NA,
+M0143,Vaginal,Boy,2850,36.1,1,2,3,NA,NA,NA,NA,,NA,,NA,,NA,
+M0151,Vaginal,Girl,3850,42.1,1,2,3,NA,NA,NA,NA,,NA,,NA,,NA,
+M0157,C-section,Boy,3500,39.4,1,2,3,NA,5,NA,NA,,NA,,NA,,NA,
+M0162,C-section,Boy,4330,42.4,1,2,3,NA,6,NA,NA,,NA,,NA,,NA,
+M0177,Vaginal,Boy,3900,40,1,2,3,NA,NA,NA,NA,,NA,,NA,,NA,
+M0201,Vaginal,Boy,3090,38,5,3,8,408,194,883.28,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0210,Vaginal,Boy,4200,40.7,1,2,3,NA,NA,NA,NA,,NA,,NA,,NA,
+M0226,Vaginal,Boy,3175,40.7,5,3,8,699,3,905.96,Breastmilk & formula,Enfamil,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0240,Vaginal,Girl,3085,41,1,2,3,NA,NA,NA,NA,,NA,,NA,,NA,
+M0259,Vaginal,Boy,3270,38,5,3,8,365,101,1066.14,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0261,Vaginal,Girl,3505,39.3,5,3,8,268,162,971.98,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0275,Vaginal,Boy,3500,37.3,0,2,2,NA,NA,NA,NA,,NA,,NA,,NA,
+M0297,Vaginal,Boy,4005,40.7,5,3,8,487,252,1014.29,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0305,Vaginal,Girl,3550,39.6,5,3,8,345,139,820.91,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0327,Vaginal,Girl,3580,38.4,5,3,8,376,183,927.35,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0333,Vaginal,Girl,3570,42.1,5,3,8,NA,3,886.01,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen,Exclusive breastmilk,
+M0346,Vaginal,Girl,3210,40.9,5,3,8,331,16,639.69,Exclusive breastmilk,,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil
+M0353,Vaginal,Girl,3150,40.3,5,3,8,217,184,892.83,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0369,C-section,Girl,3630,39,5,3,8,110,2,226.82,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil
+M0388,Vaginal,Boy,3685,40.7,5,3,8,488,172,992.45,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0399,Vaginal,Girl,3650,40.6,5,3,8,326,184,1122.09,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0402,Vaginal,Girl,2780,40.3,5,3,8,344,3,813.69,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen,Exclusive breastmilk,,Exclusive breastmilk,
+M0427,Vaginal,Girl,3095,39.9,5,3,8,735,183,940.6,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0450,Vaginal,Boy,3740,40.7,5,3,8,NA,186,1012.92,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0487,Vaginal,Boy,3485,40.9,5,3,8,370,199,993.82,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0740,C-section,Boy,3480,39.4,4,0,4,486,2,926.95,Breastmilk & formula,Enfamil,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0744,C-section,Girl,4005,39,5,3,8,265,2,1081.15,Breastmilk & formula,Nutramigen,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0764,Vaginal,Boy,3870,42.4,4,2,6,147,2,844.9,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil,Breastmilk & formula,Enfamil
+M0792,Vaginal,Girl,3775,40.1,5,3,8,409,4,1023.84,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen,Exclusive breastmilk,,Exclusive breastmilk,
+M0806,Vaginal,Girl,3645,40.7,5,3,8,419,227,1078.42,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0808,Vaginal,Boy,3205,38.9,5,3,8,385,2,NA,Breastmilk & formula,Enfamil,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M0901,C-section,Boy,3450,40.3,5,3,8,108,3,174.82,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen,Breastmilk & formula,Nutramigen
+M1098,Vaginal,Girl,3385,38.7,5,3,8,NA,184,1060.68,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,
+M1172,Vaginal,Girl,2650,36.6,4,2,6,411,69,NA,Exclusive breastmilk,,Exclusive breastmilk,,Exclusive breastmilk,,Breastmilk & formula,Nutramigen

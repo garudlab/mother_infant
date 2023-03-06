@@ -1,0 +1,8 @@
+accspath=/u/project/ngarud/Garud_lab/metagenomic_fastq_files/Olm_2019/NIH1/Olm_NIH1_run_accessions.txt
+
+while read accession; do
+  if [ ! -f NIH1/fastq_files/${accession}_1.fastq.gz ]
+	then
+		echo $accession
+	fi
+done < $accspath

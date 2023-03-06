@@ -1,0 +1,26 @@
+couple_id,age,mother_BMI_before_pregnancy,mother_smoking,mother_physical_exercise_per_week,mother_antibiotic_prepartum,mother_antibiotic_peripartum,infant_birth_weight_kg,infant_1d_exclusively_breastfed,infant_3d_weight_kg,infant_3d_exclusively_breastfed,infant_antibiotic_in_first_3_days,infant_1m_exclusively_breastfed,infant_antibiotic_in_week_before_1m,infant_antibiotic_between_3d_and_1m,infant_4m_exclusively_breastfed,infant_4m_mixed_breastfed,infant_4m_exclusively_bottlefed,infant_4m_introduce_solid_food,infant_antibiotic_in_week_before_4m,infant_antibiotic_since_birth
+10001,na,22.8,NO,<1,NO,YES,3.210,YES,3.080,YES,NO,YES,na,na,na,na,na,na,na,na
+10002,na,22.8,NO,1-2,NO,YES,3.130,YES,3.130,YES,YES,YES,na,na,na,na,na,na,na,YES
+10003,na,24,NO,7,NO,NO,3.290,YES,3.070,YES,NO,YES,na,na,na,na,na,na,na,na
+10005,29,26.4,NO,<1,NO,NO,3.350,YES,3.240,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10006,34,22.9,NO,>7,NO,NO,3.115,YES,na,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10007,31,22.9,NO,3-6,NO,NO,3.450,YES,na,YES,NO,YES,NO,NO,YES,NO,NO,NO,YES,YES
+10008,33,22.9,NO,3-6,NO,YES,3.290,YES,3.045,YES,NO,YES,NO,NO,NO,NO,YES,NO,NO,NO
+10009,38,22.9,NO,<1,NO,NO,2.900,YES,2.740,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10015,29,22.9,NO,3-6,NO,NO,3.340,YES,3.060,YES,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO
+10019,35,22.9,NO,7,NO,NO,3.260,YES,3.110,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10020,43,22.9,NO,<1,NO,NO,na,YES,na,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10023,34,22.9,NO,3-6,NO,NO,3.255,YES,na,YES,NO,YES,NO,YES,YES,NO,NO,NO,NO,YES
+10024,34,22.9,NO,>7,NO,NO,3.450,YES,3.100,YES,NO,YES,NO,NO,NO,NO,YES,NO,NO,NO
+10026,38,22.9,NO,3-6,NO,NO,2.600,YES,2.390,YES,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO
+10029,28,22.9,NO,3-6,YES,NO,3.810,YES,na,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10031,37,22.9,NO,3-6,NO,NO,2.890,YES,na,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10032,36,22.9,NO,3-6,NO,NO,2.800,YES,na,YES,NO,YES,NO,NO,NO,NO,YES,NO,NO,NO
+10034,30,22.9,NO,7,NO,NO,3.400,YES,3.080,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10035,35,22.9,NO,7,NO,NO,2.970,YES,2.850,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10039,33,22.9,NO,1-2,NO,NO,2.940,YES,2.820,YES,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO
+10042,34,22.9,NO,1-2,NO,NO,2.920,YES,2.630,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10043,na,22.9,NO,3-6,NO,NO,3.250,YES,3.020,YES,NO,na,na,na,na,na,na,na,na,na
+10049,34,22.9,YES,3-6,NO,NO,2.960,YES,2.820,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
+10052,45,22.9,NO,1-2,NO,NO,4.005,YES,3.625,YES,NO,YES,NO,NO,NO ,YES,NO,NO,NO,NO
+10055,30,22.9,NO,3-6,NO,NO,3.700,YES,3.480,YES,NO,YES,NO,NO,YES,NO,NO,NO,NO,NO
